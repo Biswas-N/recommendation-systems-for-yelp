@@ -1,0 +1,6 @@
+*.docx
+*.pdf
+*.log
+*.exe
+/data
+/.idea
