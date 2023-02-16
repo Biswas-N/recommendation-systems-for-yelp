@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dsa-5900"
+version = "0.1.0"
+description = ""
+authors = ["Biswas Nandamuri <biswas.bin2@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dsa_5900"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.3.2"
+pandas = "^1.5.3"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.21.2"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
