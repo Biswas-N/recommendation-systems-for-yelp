@@ -15,6 +15,7 @@ numba = "^0.56"
 mlflow = "^2.2.2"
 psycopg2 = "^2.9.5"
 sqlalchemy = "^2.0.8"
+python-dotenv = "^1.0.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
