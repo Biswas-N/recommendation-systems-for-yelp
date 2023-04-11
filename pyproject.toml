@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yelp-recco-system"
-version = "0.1.0"
+version = "0.0.1"
 description = ""
 authors = ["Biswas Nandamuri <biswas.bin2@gmail.com>"]
 readme = "README.md"
@@ -8,18 +8,15 @@ packages = [{include = "rec_sys"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-pyspark = "^3.3.2"
-pandas = "^1.5.3"
-scikit-learn = "^1.2.2"
-numba = "^0.56"
-mlflow = "^2.2.2"
-psycopg2 = "^2.9.5"
-sqlalchemy = "^2.0.8"
 python-dotenv = "^1.0.0"
 
 [tool.poetry.group.dev.dependencies]
+pyspark = "^3.3.2"
+pandas = "^1.5.3"
+scikit-learn = "^1.2.2"
+psycopg2 = "^2.9.5"
+sqlalchemy = "^2.0.8"
 black = "^23.3.0"
-ipykernel = "^6.22.0"
 jupyterlab = "^3.6.2"
 isort = "^5.12.0"
 
