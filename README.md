@@ -22,8 +22,9 @@ This data science project focuses on building recommendation systems for restaur
 - Postgres DB
 - Pandas
 - Jupyter
-- PySpark
+- PySpark 
 - Surprise (Python scikit for recommender systems)
+- Mlflow (for Experiment tracking)
 
 ## Featured Notebooks/Analysis/Deliverables
 
